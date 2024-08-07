@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype") ;
+}
+@font-face {
+    font-family: "Geist";
+    src: url("../fonts/Geist-Regular.ttf") format("truetype") ;
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Regular.ttf") format("truetype") ;
+}
+/* custom font sizes, font-color, font-family */
+.text-sm{
+    font-size: 12px;
+}
+.text-md{
+    font-size: 14px;
+}
+.text-purple{
+    color: #5900BD;
+}
+.font-poppins{
+font-family: "Poppins", sans-serif;
+}
+.font-geist{
+font-family: "Geist",sans-serif;
+}
+.font-inter{
+font-family: "Inter" sans-serif;
+}
+
+/* custom colors */
+.bg-purple{
+    background-color: #5900BD;
+}
+
+/* letter spacing */
+.ls-2{
+    letter-spacing: 2px;
+}
+
+.outline-none{
+    outline: none;
+}

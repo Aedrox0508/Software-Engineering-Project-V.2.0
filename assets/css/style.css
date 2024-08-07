@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+#signupMain{
+    height: 100vh;
+}
+#roomImage{
+    width: 200px;
+    height: 100px
+}
+#roomImage > img{
+    border-radius: 10px;
+}
+.banner--background{
+    background-image: linear-gradient(rgba(60, 0, 73, 0.5), rgba(64, 32, 69, 0.5)), url("../images/key-image.jpg"); 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.brand--logo{
+    height: 50px;
+    width: 30px;
+    background-image: url("../images/blink-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.signupBtn:hover{
+    background-color: #3d0083;
+    color: white;
+}
+.phone-num input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+
+}
